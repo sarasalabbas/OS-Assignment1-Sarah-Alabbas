@@ -32,90 +32,111 @@ Document your development process as you work on the assignment. Add entries sho
 
 ## Your Development Log:
 
-### Entry 1 - [Date and Time]
-**What I did**: 
+### Entry 1 - March 29, 2026, 9:00 PM
+**What I did**: Set up the project and ran the initial code 
 
 **Details**: 
+- Downloaded the starter files
+- Opened the project in VS Code
+- Updated my student ID in the code
+- Compiled and ran the program successfully
 
-**Challenges**: 
+**Challenges**: The terminal did not recognize the Java compiler at first
 
-**Solution**: 
+**Solution**: Installed JDK and made sure the PATH was configured correctly
 
-**Time spent**: 
+**Time spent**: 1 hour
 
 ---
 
-### Entry 2 - [Date and Time]
-**What I did**: 
+### Entry 2 - March 29, 2026, 10:30 PM
+**What I did**: Implemented Feature 1 (Process Priority)
 
 **Details**: 
+- Added a priority variable to the Process class
+- Generated random values between 1 and 5
+- Displayed priority when processes are added to the queue
 
-**Challenges**: 
+**Challenges**: Making sure the priority value is passed correctly and shown in output
 
-**Solution**: 
+**Solution**: Used a getter method and updated the print statements
 
-**Time spent**: 
+**Time spent**: 20 minutes 
 
 ---
 
-### Entry 3 - [Date and Time]
-**What I did**: 
+### Entry 3 - March 29, 2026, 10:50 PM
+**What I did**: Implemented Feature 2 (Context Switch Counter)
 
 **Details**: 
+- Added a static counter variable
+- Incremented it every time a process starts execution
+- Printed the total at the end of the program
 
-**Challenges**: 
+**Challenges**: Choosing the correct location to increment the counter
 
-**Solution**: 
+**Solution**: Placed it inside the scheduling loop before starting each thread
 
-**Time spent**: 
+**Time spent**: 20 minutes 
 
 ---
 
-### Entry 4 - [Date and Time]
-**What I did**: 
+### Entry 4 - March 29, 2026, 11:10 PM
+**What I did**: Implemented Feature 3 (Waiting Time Tracking)
 
 **Details**: 
+- Added variables to track waiting time
+- Used System.currentTimeMillis() to calculate waiting time
+- Displayed results in a summary table
 
-**Challenges**: 
+**Challenges**: Understanding when to calculate waiting time correctly
 
-**Solution**: 
+**Solution**: Tracked when processes enter the queue and when they start running
 
-**Time spent**: 
+**Time spent**: 25 minutes 
 
 ---
 
-### Entry 5 - [Date and Time]
-**What I did**: 
+### Entry 5 - March 29, 2026, 11:35 PM
+**What I did**: Tested and verified the program
 
 **Details**: 
+- Ran the program multiple times
+- Checked that all features are working correctly
+- Verified output for context switches and waiting time
 
-**Challenges**: 
+**Challenges**: Ensuring that the output values are reasonable
 
-**Solution**: 
+**Solution**: Carefully reviewed the logic and tested different runs
 
-**Time spent**: 
+**Time spent**: 15 minutes
 
 ---
 
-### Entry 6 - [Optional - Date and Time]
-**What I did**: 
+### Entry 6 - March 29, 2026, 11:50 PM
+**What I did**: Completed documentation and prepared submission
 
 **Details**: 
+- Wrote answers for assignment questions
+- Completed reflection file
+- Organized files for submission
 
-**Challenges**: 
+**Challenges**: Making sure all requirements are covered
 
-**Solution**: 
+**Solution**: Reviewed instructions and double-checked each file
 
-**Time spent**: 
+**Time spent**: 30 minutes
 
 ---
 
 ## Summary
 
-**Total time spent on assignment**: [X hours]
+**Total time spent on assignment**: 3-4 hours
 
-**Most challenging part**: 
+**Most challenging part**: Implementing waiting time tracking correctly
 
-**Most interesting learning**: 
+**Most interesting learning**: Understanding how CPU scheduling works in real applications
 
-**What I would do differently next time**: 
+**What I would do differently next time**: Start earlier and test each feature step by step
+
+
